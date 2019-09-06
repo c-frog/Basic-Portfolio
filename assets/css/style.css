@@ -35,7 +35,7 @@
                 color: #777777;
                 font-family: Georgia, 'Times New Roman', Times, serif;
             }
-/* MAIN BODY */
+/* MAIN BODY */ 
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -44,7 +44,7 @@ body {
 }
     
     /* ABOUT ME PAGE */
-    .about {
+    .bodycontainer {
         border: 1px solid #cccccc;
         background-color: #ffffff;
         margin: 5% 14% 40% 14%;
@@ -72,34 +72,31 @@ body {
             overflow: auto;
         }
     /* CONTACT LINK */
-    #contact {
-        border: 1px solid #cccccc;
-        background: #ffffff;
-        margin: 10% 14% 10% 14%;
+
+
+    #contacth1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 5%;
+        color: #4aaaa5;
     }
-        #contacth1 {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            margin: 5%;
-            color: #4aaaa5;
+    form {
+        padding: 0px 0px 15px 0px;
+        margin: 10px 3% 40px 3%;
+        color: #777777;
+        font-size: 12pt;
+    }
+        input {
+            width: 100%;
+            padding: 5px 0px 5px 0px;
+            margin: 3px 0px 10px 0px;
         }
-        form {
-            padding: 0px 0px 15px 0px;
-            margin: 10px 3% 40px 3%;
-            color: #777777;
-            font-size: 12pt;
+        #message {
+            width: 100.3%;
+            height: 200px;
+            padding: 5px 0px 5px 0px;
+            margin: 3px 0px 10px 0px;
+            border: solid .5px lightgrey;
         }
-            input {
-                width: 100%;
-                padding: 5px 0px 5px 0px;
-                margin: 3px 0px 10px 0px;
-            }
-            #message {
-                width: 100.3%;
-                height: 200px;
-                padding: 5px 0px 5px 0px;
-                margin: 3px 0px 10px 0px;
-                border: solid .5px lightgrey;
-            }
 
 /* FOOTER */
 .footer {
