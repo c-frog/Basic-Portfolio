@@ -1,0 +1,120 @@
+
+/*header*/
+
+.header {
+    background-color: #ffffff;
+    border: 3px solid #cccccc;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    display: flex;
+    justify-content: space-around;
+    }
+    .name {
+        background-color: #4aaaa5; 
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: left;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    ul {
+        justify-content: space-around;
+        display: flex;
+        padding: 0;
+    }
+        li {
+            list-style: none;
+            float: right;
+            align-items: center;
+            margin-left: 50px;
+            padding-top: 10px;
+        }
+            a {
+                text-decoration: inherit;
+                color: #777777;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+
+/* MAIN BODY */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("leaves-pattern.png");
+    margin: 0px 0px 0px 0px;
+}
+    
+    /* ABOUT ME PAGE */
+    .about {
+        border: 1px solid #cccccc;
+        background-color: #ffffff;
+        margin: 10% 14% 10% 14%;
+        color: #777777;
+        }
+        h2 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 3%;
+            color: #4aaaa5;
+            border: 2px solid #cccccc;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            padding: 0px 0px 25px 0px;
+        }
+        img {
+            padding: 0px 0px 15px 0px;
+            margin: 10px 20px 0px 0px;
+        }
+        p {
+            text-align: left;
+        }
+        .bio {
+            margin: 10px 3% 40px 3%;
+            overflow: auto;
+        }
+    /* CONTACT LINK */
+    #contact {
+        border: 1px solid #cccccc;
+        background: #ffffff;
+        margin: 10% 14% 10% 14%;
+    }
+        #contacth1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 5%;
+            color: #4aaaa5;
+        }
+        form {
+            padding: 0px 0px 15px 0px;
+            margin: 10px 3% 40px 3%;
+            color: #777777;
+            font-size: 12pt;
+        }
+            input {
+                width: 100%;
+                padding: 5px 0px 5px 0px;
+                margin: 3px 0px 10px 0px;
+            }
+            #message {
+                width: 100.3%;
+                height: 200px;
+                padding: 5px 0px 5px 0px;
+                margin: 3px 0px 10px 0px;
+                border: solid .5px lightgrey;
+            }
+
+/* FOOTER */
+.footer {
+    background: #666666;
+    border: 3px solid #4aaaa5;
+    clear: both;
+    text-align: center;
+    font-size: 9pt;
+    padding: 15px;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+}
+
