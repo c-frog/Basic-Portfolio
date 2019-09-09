@@ -18,17 +18,25 @@
         padding-right: 20px;
         padding-left: 20px;
     }
-    ul {
-        justify-content: space-around;
+    nav {
         display: flex;
-        padding: 0;
+    }
+    ul {
+        display: flex;
+        padding: 10px 0px;
+        text-align: center;
+        align-items: center;
     }
         li {
             list-style: none;
             float: right;
             align-items: center;
-            margin-left: 50px;
-            padding-top: 10px;
+            margin-left: 15px;
+            border-right: .5px solid #777777;
+            padding-right: 15px; 
+        }
+        li: :last-child{
+            border-right: none;
         }
             a {
                 text-decoration: inherit;
@@ -71,6 +79,10 @@ body {
             margin: 10px 3% 40px 3%;
             overflow: auto;
         }
+
+#portpics {
+    vertical-align: middle;
+}
     /* CONTACT LINK */
 
 
