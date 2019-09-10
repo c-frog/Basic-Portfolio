@@ -82,7 +82,10 @@ body {
 
 #portpics {
     vertical-align: middle;
+    float: left;
 }
+
+    
     /* CONTACT LINK */
 
 
@@ -109,6 +112,8 @@ body {
             margin: 3px 0px 10px 0px;
             border: solid .5px lightgrey;
         }
+
+
 
 /* FOOTER */
 .footer {
