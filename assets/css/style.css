@@ -35,7 +35,7 @@
             border-right: .5px solid #777777;
             padding-right: 15px; 
         }
-        li: :last-child{
+        li:last-child{
             border-right: none;
         }
             a {
@@ -51,41 +51,78 @@ body {
     margin: 0px 0px 0px 0px;
 }
     
-    /* ABOUT ME PAGE */
-    .bodycontainer {
-        border: 1px solid #cccccc;
-        background-color: #ffffff;
-        margin: 5% 14% 40% 14%;
-        color: #777777;
-        }
-        h2 {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            margin: 3%;
-            color: #4aaaa5;
-            border: 2px solid #cccccc;
-            border-top: none;
-            border-left: none;
-            border-right: none;
-            padding: 0px 0px 25px 0px;
-        }
-        img {
-            padding: 0px 0px 15px 0px;
-            margin: 10px 20px 0px 0px;
-        }
-        p {
-            text-align: left;
-        }
-        .bio {
-            margin: 10px 3% 40px 3%;
-            overflow: auto;
-        }
+/* ABOUT ME PAGE */
+.bodycontainer {
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    margin: 5% 14% 40% 14%;
+    color: #777777;
+    }
+    h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 3%;
+        color: #4aaaa5;
+        border: 2px solid #cccccc;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        padding: 0px 0px 25px 0px;
+    }
+    img {
+        padding: 0px 0px 15px 0px;
+        margin: 10px 20px 0px 0px;
+    }
+    p {
+        text-align: left;
+    }
+    .bio {
+        margin: 10px 3% 40px 3%;
+        overflow: auto;
+    }
+
+
+/* PORTFOLIO PICTURES */
 
 #portpics {
     vertical-align: middle;
     float: left;
-}
-
+    }
     
+    .pic {
+        float: left;
+        width: 50%;
+        display: block;
+    }
+    img {
+        float: left;
+    }
+        .text {
+            position: absolute;
+            text-align: center;
+            margin-top: 3%;
+            background: #4aaaa5;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            display: block;
+        }
+        #yellowstone {
+            width: 20.25%;
+            margin-top: 5%;
+        }
+        
+        #river {
+            width: 20.25%;
+            margin-top: 7%;
+        }
+        
+        #starbar {
+            width: 20.25%;
+            margin-top: 7%;
+        }
+
+        #tree {
+            width: 20.25%;
+            margin-top: 7%;
+        }
     /* CONTACT LINK */
 
 
